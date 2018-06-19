@@ -98,7 +98,7 @@ function GenerateContentList() {
     if(i == 0){
       content += '<div id="navCategory">';
       content += '<blockquote><p style="font-size: 18pt; color:#a2b4ba"><b>目录</b></p>';
-      content += '<div>'; 
+      content += '<div>';
     }
     var item = '';
     var originTitle = $(nodes[i]).text();
@@ -119,7 +119,7 @@ function GenerateContentList() {
   }
 
   $($('#cnblogs_post_body')[len - 1])
-    .append('<div id=\'signature\'><p>作者：<a href=\'http://www.cnblogs.com/jingmoxukong/\'>静默虚空</a></br>欢迎任何形式的转载，但请务必注明出处。</br>限于本人水平，如果文章和代码有表述不当之处，还请不吝赐教。</p></div>');
+    .append('<div id=\'signature\'><p>作者：<a href=\'http://www.cnblogs.com/clockq/\'>旻天Clock</a></br>博客样式摘自：<a href=\'http://www.cnblogs.com/jingmoxukong/\'>静默虚空</a></br>欢迎任何形式的转载，但请务必注明出处。</br>限于本人水平，如果文章和代码有表述不当之处，还请各位不吝赐教。</p></div>');
 }
 /*************************************************************************************
  * 根据文章中标题自动生成目录 END
