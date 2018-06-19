@@ -20,13 +20,13 @@ function generateBlogTitle() {
   for (var i=0; i < 50; i++) {
     var node=document.createElement("div");
     node.className='text';
-    node.innerHTML='静默虚空';
+    node.innerHTML='旻天Clock';
     root.appendChild(node);
   }
   document.getElementById("blogTitle").appendChild(root);
 
   var subTitle=document.createElement("h2");
-  subTitle.innerHTML='Talk is cheap, show me the code.';
+  subTitle.innerHTML='天赋决定上限，努力决定下限！！！';
   document.getElementById("blogTitle").appendChild(subTitle);
 }
 
